@@ -1,0 +1,46 @@
+$kontaktua-max-width:$grid-content;
+
+.kontaktua{
+  max-width: $kontaktua-max-width;
+  position: relative;
+}
+
+.kontaktua__info{
+  text-align: center;
+}
+
+.kontaktua__info__item{
+  padding-top: 5rem;
+}
+
+.kontaktua__grid{
+  display: grid;
+  font-size: 3rem;
+  grid-template-rows: 50% 50%;
+}
+
+.kontaktua__info .icon{
+  height: 4rem;
+}
+
+.kontaktua__map{
+  padding-top: 5rem;
+}
+
+@media #{$breakpoints-medium} {
+
+
+}
+
+@media #{$breakpoints-large} {
+  .kontaktua__grid{
+    display: grid;
+    font-size: 1.5rem;
+    grid-template-columns: 50% 50%;
+  }  
+
+}
+
+@media #{$breakpoints-xlarge} {
+
+}
