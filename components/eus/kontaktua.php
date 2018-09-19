@@ -1,6 +1,21 @@
+<?php include 'php/mailing.php'; ?>
 <section class="section kontaktua">
-  <div class="kontaktua__form">
-  </div>
+  <form action="" method="post" class="kontaktua__form"> 
+    <label>Izena eta Abizena: <span>*</span><br>
+      <input type="text" name="name" placeholder="Izena eta Abizena" class="kontaktua__input" required>
+    </label><br><br>    
+    <label>Email-a: <span>*</span><br>
+      <input type="email" name="email" placeholder="Email-a" class="kontaktua__input" required>
+    </label><br><br>
+    <label>Tlf-a: <span>*</span><br>
+      <input type="" name="tlf" placeholder="Telefonoa" class="kontaktua__input" required>
+    </label><br><br>
+    <label>Kontsulta:<br>
+      <textarea name="consult" class="kontaktua__textarea"></textarea>
+    </label><br><br>
+    <input type="submit" value="Bidali" class="kontaktua__btn">
+  </form>
+
   <div class="kontaktua__info">
     <div class="kontaktua__info__item kontaktua__ordutegia">
       <div class="kontaktua__grid">
