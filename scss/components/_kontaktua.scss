@@ -5,6 +5,34 @@ $kontaktua-max-width:$grid-content;
   position: relative;
 }
 
+.kontaktua__mensaje{
+  color: green;
+  width: $grid-content;
+  margin: auto;
+}
+
+.kontaktua__form{
+  border-bottom: 1px $color-black-opacity1 solid;
+  font-size: 3rem;
+  padding: 2rem;
+  padding-bottom: 5rem;
+}
+
+.kontaktua__input{
+  width: 100%;
+  height: 2rem;
+}
+
+.kontaktua__textarea{
+  width: 100%;
+  height: 8rem;
+}
+
+.kontaktua__btn{
+  width: 100%;
+  font-size: 1rem;
+}
+
 .kontaktua__info{
   text-align: center;
 }
@@ -20,7 +48,8 @@ $kontaktua-max-width:$grid-content;
 }
 
 .kontaktua__info .icon{
-  height: 4rem;
+  height: 8rem;
+  padding-bottom: 3rem;
 }
 
 .kontaktua__map{
@@ -33,11 +62,37 @@ $kontaktua-max-width:$grid-content;
 }
 
 @media #{$breakpoints-large} {
+
+  .kontaktua__form{
+    font-size: 2rem;
+  }
+
   .kontaktua__grid{
     display: grid;
     font-size: 1.5rem;
     grid-template-columns: 50% 50%;
   }  
+
+  .kontaktua__input{
+    width: 100%;
+    height: 2rem;
+  }
+
+  .kontaktua__textarea{
+    width: 100%;
+    height: 8rem;
+  }
+
+  .kontaktua__btn{
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .kontaktua__info .icon{
+    height: 4rem;
+    padding-bottom: 2rem;
+  }
+
 
 }
 
