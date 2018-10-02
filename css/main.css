@@ -33,9 +33,14 @@ body {
   margin: auto;
   margin-bottom: 5rem; }
 
+.title {
+  font-size: 4rem;
+  font-family: "Bebas", sans-serif;
+  text-align: center; }
+
 .header {
   align-items: center;
-  background-color: black;
+  background-color: #64741f;
   height: 30rem;
   max-width: 100vw;
   margin: auto;
@@ -85,7 +90,7 @@ body {
   opacity: .3; }
 
 .header__menu__link--languages {
-  color: #656262;
+  color: #929191;
   font-weight: normal; }
 
 .icon--menu {
@@ -105,6 +110,8 @@ body {
     fill: black; }
 
 @media only screen and (min-width: 1024px) {
+  .title {
+    font-size: 5rem; }
   .header {
     height: auto; }
   .header__grid {
@@ -115,7 +122,7 @@ body {
     font-size: 3rem; }
   .header__img {
     height: auto;
-    width: 15rem;
+    width: 12rem;
     padding: .5rem; }
   .header__menu__responsive {
     display: none; }
@@ -133,7 +140,7 @@ body {
     opacity: 1;
     visibility: visible; }
   .header__menu__link--languages {
-    color: #656262;
+    color: #929191;
     padding-right: 2rem; }
   .icon--menu {
     display: none; }
@@ -141,7 +148,7 @@ body {
     background-color: transparent; } }
 
 .footer {
-  background: black;
+  background: #64741f;
   margin: auto;
   max-width: 100vw;
   min-height: 100px;
@@ -182,7 +189,7 @@ body {
   text-align: center; }
 
 .footer__sponsors__img {
-  width: 4.5rem;
+  width: 15rem;
   padding: 0 .2rem 0 .2rem;
   transition: opacity .2s; }
 
@@ -219,6 +226,8 @@ body {
     font-size: 1rem; }
   .footer__sponsors {
     text-align: center; }
+  .footer__sponsors__img {
+    width: 8rem; }
   .footer__rrss {
     text-align: right; }
   .footer__rrss .icon {
@@ -352,5 +361,43 @@ body {
     width: 100%;
     font-size: 1rem; }
   .kontaktua__info .icon {
+    height: 4rem;
+    padding-bottom: 2rem; } }
+
+.zerbitzuak {
+  max-width: 780px;
+  padding-top: 5rem;
+  position: relative; }
+
+.zerbitzuak__intro {
+  text-align: center; }
+
+.zerbitzuak__info {
+  text-align: center; }
+
+.zerbitzuak__info__item {
+  padding-top: 5rem; }
+
+.zerbitzuak__grid {
+  display: grid;
+  font-size: 3rem;
+  grid-template-rows: 50% 50%; }
+
+.zerbitzuak__info .icon {
+  height: 8rem;
+  padding-bottom: 3rem; }
+
+.zerbitzuak__osagarriak {
+  color: #929191;
+  padding-top: 5rem; }
+
+@media only screen and (min-width: 1024px) {
+  .zerbitzuak__grid {
+    display: grid;
+    font-size: 1.5rem;
+    grid-template-columns: 50% 50%; }
+  .zerbitzuak__info__item div {
+    text-align: left; }
+  .zerbitzuak__info .icon {
     height: 4rem;
     padding-bottom: 2rem; } }

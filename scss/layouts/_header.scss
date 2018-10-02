@@ -1,10 +1,10 @@
 $header-max-width: $grid;
-$header-background-color:$color-black;
+$header-background-color:$color-green-pistacho;
 $header-title-font-family:$font-family-montserrat;
 $header-menu-backgorund-color:$color-white;
 $header-menu-font-family:$font-family-montserrat;
 $header-menu-font-color1:$color-black;
-$header-menu-languages-font-color:$color-gray-content;
+$header-menu-languages-font-color:$color-gray-content2;
 $header-menu-font-color2:$color-white;
 $header-menu-link-box-shadow:$box-shadow-litle;
 $icon-menu-color:$color-white;
@@ -26,6 +26,12 @@ body{
 .section{
   margin: auto;
   margin-bottom: 5rem;
+}
+
+.title{
+  font-size: 4rem;
+  font-family: $font-family-bebas;
+  text-align: center;
 }
 
 .header{
@@ -127,6 +133,11 @@ body{
 }
 
 @media #{$breakpoints-large} {
+
+  .title{
+    font-size: 5rem;
+  }
+
   .header{
     height: auto;
   }
@@ -143,7 +154,7 @@ body{
 
   .header__img{
     height: auto;
-    width: 15rem;
+    width: 12rem;
     padding: .5rem;
   }
 

@@ -1,17 +1,17 @@
 <?php include 'php/mailing.php'; ?>
 <section class="section kontaktua">
-  <h1 class="kontaktua__title title">KONTAKTUA</h1>
+  <h1 class="kontaktua__title title">CONTACTO</h1>
   <form action="" method="post" class="kontaktua__form"> 
-    <label>Izena eta Abizena: <span>*</span><br>
-      <input type="text" name="name" placeholder="Izena eta Abizena" class="kontaktua__input" required>
+    <label>Nombre y Apellidos: <span>*</span><br>
+      <input type="text" name="name" placeholder="Nombre y Apellidos" class="kontaktua__input" required>
     </label><br><br>    
-    <label>Email-a: <span>*</span><br>
-      <input type="email" name="email" placeholder="Email-a" class="kontaktua__input" required>
+    <label>Email: <span>*</span><br>
+      <input type="email" name="email" placeholder="Email" class="kontaktua__input" required>
     </label><br><br>
-    <label>Tlf-a: <span>*</span><br>
-      <input type="" name="tlf" placeholder="Telefonoa" class="kontaktua__input" required>
+    <label>Tlf: <span>*</span><br>
+      <input type="" name="tlf" placeholder="Telefono" class="kontaktua__input" required>
     </label><br><br>
-    <label>Kontsulta:<br>
+    <label>Consulta:<br>
       <textarea name="consult" class="kontaktua__textarea"></textarea>
     </label><br><br>
     <input type="submit" value="Bidali" class="kontaktua__btn">
