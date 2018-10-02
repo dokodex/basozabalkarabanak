@@ -23,13 +23,13 @@
   <body>
     <div class="header">
       <div class="header__grid">
-        <div class="header__title"><a class="header__title__link" <?php echo 'href="index.php?language=' . $language . '"'; ?>><img class="header__img" src="img/meltdown-logos/meltdown-white.png" alt=""></a></div>
+        <div class="header__title"><a class="header__title__link" <?php echo 'href="index.php?language=' . $language . '"'; ?>><img class="header__img" src="img/basozabal-logos/basozabalkarabanak-white.png" alt=""></a></div>
         <nav class="header__menu" id="header__mymenu">
           <a class="header__menu__responsive" href="javascript:void(0);" onclick="menuResponsive()"><?php require('imports/svg/menu.svg'); ?></a>
           <a class="header__menu__link header__menu__link--languages active" href="?language=es">ESP</a>
           <a class="header__menu__link header__menu__link--languages active" href="?language=eus">EUS</a>
-          <a class="header__menu__link active" <?php echo 'href="store.php?language=' . $language . '"'; ?>>ZERBITZUA</a>
-          <a class="header__menu__link active" <?php echo 'href="videos.php?language=' . $language . '"'; ?>>KONTAKTUA</a>
+          <a class="header__menu__link active" <?php echo 'href="zerbitzuak.php?language=' . $language . '"'; ?>>ZERBITZUA</a>
+          <a class="header__menu__link active" <?php echo 'href="kontaktua.php?language=' . $language . '"'; ?>>KONTAKTUA</a>
         </nav>
       </div>
     </div>  

@@ -13,8 +13,8 @@
   <div class="home__grid">
     <div><img class="home__img" src="img/basozabal-logos/basozabalkarabanak-black.png" alt=""/></div>
     <nav class="home__menu">
-      <a class="home__menu__link" <?php echo 'href="store.php?language=' . $language . '"'; ?>>ZERBITZUAK</a>
-      <a class="home__menu__link" <?php echo 'href="videos.php?language=' . $language . '"'; ?>>KONTAKTUA</a>
+      <a class="home__menu__link" <?php echo 'href="zerbitzuak.php?language=' . $language . '"'; ?>>ZERBITZUAK</a>
+      <a class="home__menu__link" <?php echo 'href="kontaktua.php?language=' . $language . '"'; ?>>KONTAKTUA</a>
     </nav>
     <div class="home__languages">
       <a class="home__languages__link" href="?language=es">ESP | </a>
