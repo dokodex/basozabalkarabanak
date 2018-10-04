@@ -27,7 +27,7 @@
     <div class="kontaktua__info__item kontaktua__mail">
       <div class="kontaktua__grid">
         <div><?php require('imports/svg/mail.svg'); ?></div>
-        <div>arrizadur@gmail.com</div>
+        <div>info@basozabalkarabanak.com</div>
       </div>
     </div>
     <div class="kontaktua__info__item kontaktua__tlf">

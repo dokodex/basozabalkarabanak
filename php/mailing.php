@@ -1,7 +1,7 @@
 <?php
   if(isset($_POST['email'])){
     $remitente = $_POST['email'];
-    $destinatario = 'pfadarraga@gmail.com'; // en esta línea va el mail del destinatario.
+    $destinatario = 'info@basozabalkarabanak.com'; // en esta línea va el mail del destinatario.
     $asunto = 'Karabanak'; // acá se puede modificar el asunto del mail
     if (!$_POST){
 
