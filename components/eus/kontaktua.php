@@ -2,7 +2,7 @@
 <section class="section kontaktua">
   <h1 class="kontaktua__title title">KONTAKTUA</h1>
   <form action="" method="post" class="kontaktua__form"> 
-    <label>Izena eta Abizena: <span>*</span><br>
+    <label>Izena Abizenak: <span>*</span><br>
       <input type="text" name="name" placeholder="Izena eta Abizena" class="kontaktua__input" required>
     </label><br><br>    
     <label>Email-a: <span>*</span><br>

@@ -7,13 +7,7 @@
     <div class="zerbitzuak__info__item">
       <div class="zerbitzuak__grid">
         <div><?php require('imports/svg/no-entry.svg'); ?></div>
-        <div>Sarrera mugatua  pertsonalizatua.</div>
-      </div>
-    </div>
-    <div class="zerbitzuak__info__item">
-      <div class="zerbitzuak__grid">
-        <div><?php require('imports/svg/parked-car.svg'); ?></div>
-        <div>Aparkaleku zabalak maniobra egiteko errazak.</div>
+        <div>Sarrera mugatua eta pertsonalizatua.</div>
       </div>
     </div>
     <div class="zerbitzuak__info__item">
@@ -40,7 +34,7 @@
     <div class="zerbitzuak__info__item">
       <div class="zerbitzuak__grid">
         <div><?php require('imports/svg/wheel.svg'); ?></div>
-        <div>Tailerrarekin konbenioa gurpilen aldaketa eta errepazioetarako.</div>
+        <div>Tailerrekin konbenioa gurpilen aldaketa eta errepazioetarako.</div>
       </div>
     </div>
     <div class="zerbitzuak__info__item">
