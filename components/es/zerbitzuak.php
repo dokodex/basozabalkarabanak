@@ -7,13 +7,7 @@
     <div class="zerbitzuak__info__item">
       <div class="zerbitzuak__grid">
         <div><?php require('imports/svg/no-entry.svg'); ?></div>
-        <div>Acceso restringido personalizad. </div>
-      </div>
-    </div>
-    <div class="zerbitzuak__info__item">
-      <div class="zerbitzuak__grid">
-        <div><?php require('imports/svg/parked-car.svg'); ?></div>
-        <div>Plazas amplias de fácil maniobra.</div>
+        <div>Acceso restringido personalizado. </div>
       </div>
     </div>
     <div class="zerbitzuak__info__item">
