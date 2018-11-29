@@ -54,7 +54,6 @@ if(isset($_POST['email'])){
     } else {
         if($_SESSION['languages']=='eus'){
           echo '<div class="kontaktua__mensaje">Mezua bidalita! Lehen bait lehen jarriko gara zurekin arremanetan. Eskerrik asko.</div>';
-            echo $cuerpo;
           }
         if($_SESSION['languages']=='es'){
           echo '<div class="kontaktua__mensaje">¡Mensaje eviado! Nos pondremos en contacto con usted lo antes posible. Muchas gracias.</div>';
