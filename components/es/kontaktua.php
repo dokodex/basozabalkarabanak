@@ -1,4 +1,4 @@
-<?php include 'php/phpmailer/index.php'; ?>
+<?php include 'php/mailing.php'; ?>
 <section class="section kontaktua">
   <h1 class="kontaktua__title title">CONTACTO</h1>
   <form action="" method="post" class="kontaktua__form"> 
