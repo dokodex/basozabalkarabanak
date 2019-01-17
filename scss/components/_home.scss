@@ -5,6 +5,7 @@ $home-icon--arrow-down:$color-gray-content;
 
 .home{
   background: url('../img/basozabal.jpg') no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color:$home-font-color;
   height: 100vh;
